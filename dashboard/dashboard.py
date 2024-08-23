@@ -7,8 +7,8 @@ import numpy as np
 sns.set(style='dark')
 
 # Load data
-day_df = pd.read_excel("day_cleaned.xlsx")
-hour_df = pd.read_excel("hour_cleaned.xlsx")
+day_df = pd.read_excel("dashboard/day_cleaned.xlsx")
+hour_df = pd.read_excel("dashboard/hour_cleaned.xlsx")
 
 # Convert datetime columns
 day_df['datetime'] = pd.to_datetime(day_df['datetime'])

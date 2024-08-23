@@ -58,6 +58,5 @@ Based on the analysis, the following key insights were derived:
 ## Run steamlit app
 
 ```
-cd dashboard
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
 ```
